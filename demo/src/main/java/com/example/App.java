@@ -9,7 +9,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner options = new Scanner(System.in);
         float amount = 0;
-        String menu = "1. EUR a USD\n2. BOB a USD\n3. ARS a USD\n4. BRL a USD\n5. CLP a USD\n6. PEN a USD\n7. MXN a USD\n8. Salir\n";
+        String menu = "\n\n\n1. EUR a USD\n2. BOB a USD\n3. ARS a USD\n4. BRL a USD\n5. CLP a USD\n6. PEN a USD\n7. MXN a USD\n8. Salir\n";
         System.out.println(menu);
         int option = options.nextInt();
         while (option != 8 && option > 0) {
