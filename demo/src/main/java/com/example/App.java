@@ -19,7 +19,7 @@ public class App {
                     System.out.print("Ingrese la cantidad a convertir:");
                     amount = options.nextFloat();
                     URL url = new URL(
-                            "https://v6.exchangerate-api.com/v6/ce02ecbd19ba9f0680ac34e6/pair/EUR/USD/"
+                            "https://v6.exchangerate-api.com/v6/apikey/pair/EUR/USD/"
                                     + amount);
 
                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
@@ -53,7 +53,7 @@ public class App {
                     System.out.print("Ingrese la cantidad a convertir:");
                     amount = options.nextFloat();
                     URL url2 = new URL(
-                            "https://v6.exchangerate-api.com/v6/ce02ecbd19ba9f0680ac34e6/pair/BOB/USD/"
+                            "https://v6.exchangerate-api.com/v6/apikey/pair/BOB/USD/"
                                     + amount);
                     HttpURLConnection con2 = (HttpURLConnection) url2.openConnection();
                     con2.setRequestMethod("GET");
@@ -83,7 +83,7 @@ public class App {
                     System.out.print("Ingrese la cantidad a convertir:");
                     amount = options.nextFloat();
                     URL url3 = new URL(
-                            "https://v6.exchangerate-api.com/v6/ce02ecbd19ba9f0680ac34e6/pair/ARS/USD/"
+                            "https://v6.exchangerate-api.com/v6/apikey/pair/ARS/USD/"
                                     + amount);
                     HttpURLConnection con3 = (HttpURLConnection) url3.openConnection();
                     con3.setRequestMethod("GET");
@@ -114,7 +114,7 @@ public class App {
                     System.out.print("Ingrese la cantidad a convertir:");
                     amount = options.nextFloat();
                     URL url4 = new URL(
-                            "https://v6.exchangerate-api.com/v6/ce02ecbd19ba9f0680ac34e6/pair/BRL/USD/"
+                            "https://v6.exchangerate-api.com/v6/apikey/pair/BRL/USD/"
                                     + amount);
                     HttpURLConnection con4 = (HttpURLConnection) url4.openConnection();
                     con4.setRequestMethod("GET");
@@ -145,7 +145,7 @@ public class App {
                     System.out.print("Ingrese la cantidad a convertir:");
                     amount = options.nextFloat();
                     URL url5 = new URL(
-                            "https://v6.exchangerate-api.com/v6/ce02ecbd19ba9f0680ac34e6/pair/CLP/USD/"
+                            "https://v6.exchangerate-api.com/v6/apikey/pair/CLP/USD/"
                                     + amount);
                     HttpURLConnection con5 = (HttpURLConnection) url5.openConnection();
                     con5.setRequestMethod("GET");
@@ -176,7 +176,7 @@ public class App {
                     System.out.print("Ingrese la cantidad a convertir:");
                     amount = options.nextFloat();
                     URL url6 = new URL(
-                            "https://v6.exchangerate-api.com/v6/ce02ecbd19ba9f0680ac34e6/pair/PEN/USD/"
+                            "https://v6.exchangerate-api.com/v6/apikey/pair/PEN/USD/"
                                     + amount);
                     HttpURLConnection con6 = (HttpURLConnection) url6.openConnection();
                     con6.setRequestMethod("GET");
@@ -206,7 +206,7 @@ public class App {
                     System.out.print("Ingrese la cantidad a convertir:");
                     amount = options.nextFloat();
                     URL url7 = new URL(
-                            "https://v6.exchangerate-api.com/v6/ce02ecbd19ba9f0680ac34e6/pair/MXN/USD/"
+                            "https://v6.exchangerate-api.com/v6/apikey/pair/MXN/USD/"
                                     + amount);
                     HttpURLConnection con7 = (HttpURLConnection) url7.openConnection();
                     con7.setRequestMethod("GET");
